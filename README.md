@@ -1,40 +1,40 @@
 # Student Management System
 
-## Overview
-
-A desktop application developed using Python, Tkinter and SQLite to manage student records.
+A desktop-based Student Management System built using Python, Tkinter, and SQLite.
 
 ## Features
 
 - Add Student
-- View Students
 - Update Student
 - Delete Student
 - Search Student
-- Email Validation
-- Phone Validation
+- View All Students
+- Input Validation
 - SQLite Database
-- Scrollable Table
+- User-friendly GUI
 
-## Technologies
+## Technologies Used
 
-- Python
+- Python 3
 - Tkinter
 - SQLite3
 
 ## Project Structure
 
+```
 Student_Management_System/
-│
-├── database/
-│ └── student.db
-│
-├── src/
-│ ├── database.py
-│ ├── gui.py
-│ └── main.py
+│── database/
+│   └── student.db
+│── src/
+│   ├── main.py
+│   ├── gui.py
+│   └── database.py
+│── README.md
+│── requirements.txt
+│── .gitignore
+```
 
-## Run
+## How to Run
 
 ```bash
 python src/main.py
